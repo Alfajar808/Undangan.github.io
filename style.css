@@ -1,0 +1,619 @@
+/* FONT FAMILY
+font-family: 'Lato', sans-serif;
+font-family: 'Merienda', cursive;
+*/
+
+body {
+   font-size: 1.2rem;
+   font-family: font-family: 'Lato', sans-serif;
+   min-height: 4000px;
+}
+
+
+.hero::before {
+    content: '';
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(img/bg.png);
+    z-index: -1;
+    /* filter: grayscale();
+    -webkit-filter: grayscale(); */
+}
+
+
+.hero{
+    position: relative;
+    min-height: 100vh;
+    align-items: center;
+}
+
+
+
+.hero h1, .hero h4, .hero p {
+    /* text-shadow: 0 2px 2px rgba(66, 65, 65, 0.5); */
+} 
+
+
+.hero .countdown {
+    color: ;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400px;
+    font-family: 'Merienda', cursive;
+    margin-top: 50px;
+} 
+
+.hero h1 {
+    font-family: 'Merienda', cursive;
+    font-size: 40px;
+    font-weight: 400px;
+    line-height: 40px;
+    color: #efbf69;
+}
+
+
+.hero h4 {
+    font-size: 18px;
+    line-height: 28px;
+    font-family: 'Lato', sans-serif;
+
+}
+
+
+.hero p {
+    font-size: 18px;
+    line-height: 28px;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.hero a,
+.info a {
+    font-family: 'Merienda', cursive;
+    color: #001032;
+    background-color: white;
+    font-weight: bold;
+    border:solid 3.5px #efbf69;
+}
+
+
+.hero a:hover,
+.info a:hover {
+    color: #001032;
+    background-color: #efbf69;
+    border:solid 2px white;
+}
+
+
+
+.mynavbar {
+    font-family: 'Merienda', cursive;
+    background-color: rgba(130, 95, 95, 0);
+    backdrop-filter: blur(1.2px);
+}
+
+
+.mynavbar .offcanvas {
+    font-family: 'Merienda', cursive;
+    height: 100vh;
+    background-color: #001032;
+}
+
+
+.mynavbar .navbar-brand, .mynavbar .offcanvas-title {
+    font-family: 'Merienda', cursive;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+
+.mynavbar .nav-link {
+    font-family: 'Merienda', cursive;
+    text-transform: uppercase;
+    color:#efbf69;
+}
+
+
+.sticky-top {
+    overflow: hidden;
+}
+
+
+.home {
+    background-color: #001032 ;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    margin-top: -4rem;
+    padding-top: 6rem;
+    padding-bottom: 4.5rem;
+    /* filter: grayscale();
+    -webkit-filter: grayscale(); */
+}
+
+
+.home h2,
+.info h2,
+.story h2,
+.gallery h2,
+.rsvp h2 {
+    font-family: 'Merienda', cursive ;
+    font-size: 42px;
+    line-height: 42px;
+    font-weight: 400px;
+    margin-bottom: 3.5rem;
+    margin-top: -1rem;
+    color: #efbf69;
+}
+
+
+.home h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400px;
+    margin-bottom: 1rem;
+}
+
+
+.home p,
+.info p,
+.story p {
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    line-height: 24px;
+    color: white;
+}
+
+
+.home .couple {
+    margin-top: 100px;
+}
+
+
+.home .couple h3 {
+    font-family: 'Merienda', cursive ;
+    font-size: 30px;
+    line-height: 36px;
+    color: #efbf69;
+    margin-top: 40px;
+}
+
+.home .couple p {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    margin: 12px;
+}
+
+
+.home .couple img {
+    width: 100%;
+}
+
+
+.info {
+    background-image: url(img/bg.png);
+    color: white;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+
+.info .alamat {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1rem;
+}
+
+
+.info .description {
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+
+.info .card {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    color: white !important;
+    border: 1px solid #999;
+    font-family: 'Merienda', cursive ;
+
+}
+
+
+.info .card-header {
+    border-bottom: 1px solid #999;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+
+.info .card-body {
+    font-size: 1rem;
+}
+
+
+.info .card-footer {
+    border-top: 1px solid #999;
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: white !important;
+}
+
+
+
+.story {
+    background-color: #001032;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+
+
+.story .timeline-body p{
+    color: #001032;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.story h3 {
+    font-family: 'Merienda', cursive;
+    color: #001032;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.story span {
+    color: #efbf69;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: bold;
+}
+
+.gallery {
+    background-image: url(img/bg.png);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.rsvp,
+.gifts {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+
+.gallery span {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    color: #efbf69;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    display: block;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.story p,
+.gallery p,
+.gifts p {
+    font-family: 'Merienda', cursive ;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+.timeline {
+    list-style: none;
+    padding: 1.4rem 0;
+    margin-top: 1rem;
+    position: relative;
+}
+
+
+.timeline::before {
+    content: '';
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    width: 1px;
+    background-color: #ccc;
+    left: 50%;
+}
+
+
+.timeline li {
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+
+.timeline li::before,
+.timeline li::after {
+    content: '';
+    display: table;
+}
+
+
+.timeline li::after {
+    clear: both;
+}
+
+
+.timeline li .timeline-image {
+    width: 160px;
+    height: 160px;
+    background-color: #ccc;
+    position: absolute;
+    left: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+
+.timeline li .timeline-panel {
+    width: 40%;
+    float: left;
+    border: 1px solid #ccc;
+    padding: 2rem;
+    position: relative;
+    background-color: #fff;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+
+.timeline li .timeline-panel::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    border-top: 15px solid transparent ;
+    border-left: 15px solid #ccc;
+    border-right: 0 solid #ccc;
+    border-bottom: 15px solid transparent;
+    top: 80px;
+    right: -15px;
+}
+
+
+.timeline li .timeline-panel::after {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    border-top: 14px solid transparent ;
+    border-left: 14px solid #fff;
+    border-right: 0 solid #fff;
+    border-bottom: 14px solid transparent;
+    top: 81px;
+    right: -13px;
+}
+
+
+
+
+.timeline li.timeline-inverted .timeline-panel {
+    float: right;
+    
+}
+
+.timeline li.timeline-inverted .timeline-panel::before {
+    border-left-width: 0;
+    border-right-width: 15px;
+    left: -15px;
+    right: auto;
+}
+
+.timeline li.timeline-inverted .timeline-panel::after {
+    border-left-width: 0;
+    border-right-width: 14px;
+    left: -13px;
+    right: auto;
+}
+
+
+.gallery {
+    /* background: url(img/bg.png) ; */
+    background-color: lightslategrey;
+}
+
+
+.rsvp {
+    background-color: #001032;
+}
+
+
+.rsvp p,
+.gifts p {
+    font-size: 18px;
+    line-height: 28px;
+    font-family: 'Lato', sans-serif;
+    margin-top: -2rem;
+}
+
+.rsvp form label {
+    color: white;
+}
+
+.rsvp button {
+    background-color: #efbf69;
+    color: white;
+    border: 1px solid #efbf69;
+}
+
+.rsvp button:hover {
+    background-color: white;
+    color: #efbf69;
+    border: 1px solid white;
+}
+
+.gifts {
+    background-color: #001032;
+}
+
+.gifts span {
+    font-family: 'Merienda', cursive;
+    text-transform: uppercase;
+    color: #efbf69;
+    font-size: 26px;
+    letter-spacing: 1px;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.gifts h2 {
+    font-family: 'Merienda', cursive;
+    color: white;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+
+footer {
+    padding: 1rem;
+    background-color: #efbf69;
+    color: black;
+    font-weight: bold;
+}
+
+footer a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+}
+
+footer li {
+    list-style: none;
+    display: inline;
+    margin: 0.5rem;
+}
+
+
+/* ----Media Query--- */
+
+/* Laptop */
+@media (max-width: 992px) {
+    
+    html {
+        font-size: 75%;
+    }
+    
+    .simply-countdown>.simply-section {
+        padding: 70px;
+    }
+
+    .timeline::before {
+        left: 60px;
+    }
+
+    .timeline li .timeline-image {
+        left: 15px;
+        margin-left: 45px;
+        top: 16px;
+    }
+
+    .timeline li .timeline-panel {
+        width: calc(100%-200px);
+        float: right;
+    }
+
+    .timeline li .timeline-panel::before {
+        border-left-width: 0;
+        border-right-width: 15px;
+        left: -15px;
+        right: auto;
+    }
+    
+    .timeline li .timeline-panel::after {
+        border-left-width: 0;
+        border-right-width: 14px;
+        left: -13px;
+        right: auto;
+    }
+}
+
+
+
+/* Tablet */
+@media (max-width: 768px) {
+    html {
+        font-size: 65%;
+    }
+    .simply-countdown>.simply-section {
+        padding: 60px;
+        margin: 5px;
+    }
+
+    .mynavbar .nav-link {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .timeline li .timeline-image {
+        width: 140px;
+        height: 140px;
+    }
+
+}
+
+/* Mobile Phone */
+@media (max-width: 576px) {
+    html {
+        font-size: 60%;
+    }
+    .simply-countdown>.simply-section {
+        padding: 40px;
+        margin: 3;
+    }
+
+    .timeline li .timeline-image {
+        width: 80px;
+        height: 80px;
+    }
+
+    .timeline li .timeline-panel {
+        width: 65%;
+        transform: translateX(-10) ;
+        -webkit-transform: translateX(-10) ;
+        -moz-transform: translateX(-10) ;
+        -ms-transform: translateX(-10) ;
+        -o-transform: translateX(-10) ;
+    }
+
+    .timeline li .timeline-panel::before {
+        top: 30px;
+    }
+    
+    .timeline li .timeline-panel::after {
+        top: 31px;
+    }
+}
